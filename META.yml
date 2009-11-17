@@ -1,0 +1,25 @@
+---
+name: File-HashCache-JavaScript
+version: 0.10.0
+author:
+  - 'David Caldwell <david@porkrind.org>'
+abstract: |-
+  Minify and cache javascript files based on the
+  hash of their contents.
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  File::Slurp: 0
+  JSON: 0
+  JavaScript::Minifier::XS: 0
+provides:
+  File::HashCache:
+    file: lib/File/HashCache.pm
+  File::HashCache::JavaScript:
+    file: lib/File/HashCache/JavaScript.pm
+    version: 0.10.0
+generated_by: Module::Build version 0.280801
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
