@@ -1,3 +1,11 @@
+File::HashCache::JavaScript (0.10.0)
+
+  * Renamed JavaScript::Hash to File::HashCache::JavaScript.
+  * Split all non javascript related code to File::HashCache.
+  * Test a couple more things.
+
+ -- David Caldwell <david@porkrind.org>  Tue, 17 Nov 2009 16:02:52 -0800
+
 JavaScript::Hash (0.9.1)
 
   * Fixed required modules in Build.PL.
